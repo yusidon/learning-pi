@@ -3,6 +3,7 @@
 把一线工程师每天在用的 agent skills 整理成中文的个人站点。Hono + JSX,部署在 Cloudflare Workers。
 
 - 线上地址:https://my-favorite-skills.yusidon.workers.dev
+- 本地目录:`src/build-a-website/`
 - 技能源:`src/data/sources.ts`
 
 ## 命令
@@ -14,7 +15,7 @@ npm run deploy   # 部署到 Cloudflare Workers
 
 ## 目录结构
 
-```
+```text
 src/
   index.tsx              # 路由
   site.ts                # 站名、tagline、作者等站点级文案
